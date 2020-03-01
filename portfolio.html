@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>|Simran Walia Portfolio|</title>
+<link href="website.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('button-res.png','button-com.png','button-reno.png','button-det.png','button-digmod.png','button-phymod.png')">
+<table width="800" border="0" align="center" class="tableback">
+  <tbody>
+    <tr>
+      <td colspan="5" align="center" class="mainlinks"><a href="index.html" class="menu2">h o m e</a> | <a href="aboutme.html" class="menu2">b i o</a> | <a href="resume.html" class="menu2">r e s u m e</a> | <span class="menu2">p o r t f o l i o</span> | <a href="contact.html" class="menu2">c o n t a c t</a></td>
+    </tr>
+    <tr>
+      <td colspan="5">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="pdflink"><img src="cover-port-title.png" alt="" width="800" height="102" align="right"/></td>
+    </tr>
+    <tr>
+      <td colspan="3" class="pdflink"><a href="residential.html" onMouseOver="MM_swapImage('res','','button-res.png',1)"><img src="port1.png" alt="" width="246" height="178" id="res" onMouseOut="MM_swapImgRestore()" border="0"/></a></td>
+      <td width="283" class="pdflink"><a href="commercial.html" onMouseOver="MM_swapImage('com','','button-com.png',1)"><img src="port2.png" alt="" width="274" height="179" class="centertext" id="com" onMouseOut="MM_swapImgRestore()" align="middle" border="0"/></a></td>
+      <td width="248" class="pdflink"><a href="renovation.html" onMouseOver="MM_swapImage('reno','','button-reno.png',1)"><img src="port3.png" alt="" width="245" height="178" id="reno" onMouseOut="MM_swapImgRestore()" border="0"/></a></td>
+    </tr>
+    <tr>
+      <td colspan="3" class="pdflink"><p><a href="details.html" onMouseOver="MM_swapImage('det','','button-det.png',1)"><img src="port4.png" alt="" width="246" height="177" id="det" onMouseOut="MM_swapImgRestore()" border="0"/></a></p></td>
+      <td class="pdflink"><a href="digitalmod.html" onMouseOver="MM_swapImage('digmod','','button-digmod.png',1)"><img src="port5.png" alt="" width="274" height="176" class="centertext" id="digmod" onMouseOut="MM_swapImgRestore()" align="middle" border="0"/></a></td>
+      <td class="pdflink"><a href="physicalmod.html" onMouseOver="MM_swapImage('phymod','','button-phymod.png',1)"><img src="port6.png" alt="" width="244" height="176" id="phymod" onMouseOut="MM_swapImgRestore()" border="0"/></a></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

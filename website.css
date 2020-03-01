@@ -1,0 +1,94 @@
+@charset "utf-8";
+body {
+	background-image: url(White-Background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.tableback {
+	background-color: rgba(159,159,159,0.46);
+	background-attachment: fixed;
+}
+.headingtext {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	color: rgba(34,34,34,1.00);
+}
+.normaltext {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: rgba(59,58,58,1.00);
+}
+.center {
+	text-align: center;
+}
+.centertext {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-align: center;
+	color: rgba(53,53,53,1.00);
+	font-size: 18px;
+	text-decoration: none;
+}
+a.menu1:link {
+	color: rgba(42,42,42,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 18px;
+}
+a.menu1:visited {
+	color: rgba(42,42,42,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 18px;
+}
+a.menu1:hover {
+	color: rgba(88,88,88,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 18px;
+}
+a.menu1:active {
+	color: rgba(88,88,88,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 18px;
+}
+a.menu2:link {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 20px;
+	word-spacing: 3px;
+	text-align: center;
+	color: rgba(66,66,66,1.00);
+}
+a.menu2:visited {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 20px;
+	word-spacing: 3px;
+	text-align: center;
+	color: rgba(66,66,66,1.00);
+	text-decoration: none;
+}
+a.menu2:hover {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 16px;
+	word-spacing: 3px;
+	text-align: center;
+	color: rgba(123,121,121,1.00);
+}
+a.menu2:active {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 16px;
+	word-spacing: 3px;
+	text-align: center;
+	color: rgba(123,121,121,1.00);
+	text-decoration: none;
+}
+.mainlinks {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 20px;
+	word-spacing: 3px;
+	text-align: center;
+}
+.tableback2 {
+	text-align: center;
+}
+.biotext {
+	color: rgba(51,51,51,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
